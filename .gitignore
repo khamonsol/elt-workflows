@@ -1,0 +1,49 @@
+# General
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.svg
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files #
+################################
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Argo Workflows specific ignores
+# Temporary files that might be created by Argo or local scripts
+argo.log
+temp-*
+outputs/
+artifacts/
+
+# If using Minikube for local testing
+.minikube/
+.cache/
+.local/
+
+# Exclude environment files
+.env
+
